@@ -3,7 +3,7 @@
 simple sticky notes app built on React.js 
 
 ## App is deployed in This link:
-https://abyerali.github.io/Sticky-Notes-ReactApp/
+https://abyerali.github.io/Sticky-Notes/
 
 
 # Getting Started with Create React App
