@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+  color: whitesmoke;
+  height: 13vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  box-shadow: 3px 3px 6px #2c3e50;
+  -webkit-text-stroke: 1px whitesmoke;
+  -webkit-text-stroke-width: 2px;
+  text-shadow: 3px 3px 6px #2c3e50;
+
+}
+
+.footer {
+  bottom: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 21%;
+}
+
+.note-creation {
+  width: 27vw;
+  position: relative;
+  padding: 2px;
+  padding-right: 6px;
+  margin: auto;
+}
+
+.sticky-note {
+  position: relative;
+}
+
+
+.note-creation > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  margin-bottom: 10px;
+  box-shadow: 0.5px 0.5px 5px #333;
+  min-height: 50px;
+  padding: 15px 10px 5px 10px;
+  border-radius: 10px;
+}
+
+.sticky-note {
+  background-color: whitesmoke;
+  margin-bottom: 10px;
+  box-shadow: 0.5px 0.5px 3.5px black;
+  width: 18%;
+  border-radius: 10px;
+  padding: 4px;
+  font-size: small;
+}
+
+/* .sticky-note :focus{
+  border: 3px solid red;
+} */
+
+.sticky-note > input{
+  text-align: center;
+}
+
+.stickyNote-container{
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.stickyNote-container > *{
+  margin:10px 35px;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 0.9rem;
+  margin: 10px 0;
+  width: 100%;
+  resize:both;
+  max-height: 100px;
+  height: 60px;
+}
+
+input {
+  width: 100%;
+  line-height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+
+
+/*_________ Icons setting  */
+.fa-icons {
+  border: none;
+  outline: none;
+}
+
+.fa-plus {
+  padding: 3px 5px;
+  box-shadow: 1px 1px 6px #333;
+  background-color: white;
+  border-radius: 30px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  
+}
+
+.fa-trash {
+  background-color: transparent;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 30px;
+  padding: 3px;
+}
+
+.fa-plus:hover , .fa-trash:hover{
+  background-color: #333;
+  color: whitesmoke;
+  padding: 5px 8px;
+}
+
+/*___________ Icons setting  End*/
